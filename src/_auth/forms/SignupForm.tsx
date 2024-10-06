@@ -161,6 +161,7 @@ const SignupForm = () => {
               Log in
             </Link>
           </p>
+          <p className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-xl font-black align-middle justify-center">Build By Harsh Sharma</p>
         </form>
       </div>
     </Form>

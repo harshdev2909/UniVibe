@@ -16,7 +16,7 @@ export default function AuthLayout() {
           </section>
 
           <img
-            src="/assets/images/side-img.svg"
+            src="https://img.freepik.com/free-vector/seamless-doodle-social-media-pattern-background-vector-illustration_1284-1983.jpg"
             alt="logo"
             className="hidden xl:block h-screen w-1/2 object-cover bg-no-repeat"
           />
