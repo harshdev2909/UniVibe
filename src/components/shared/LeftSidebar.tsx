@@ -29,13 +29,13 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/logoss.png"
             alt="logo"
-            width={170}
-            height={36}
+            width={110}
+            height={16}
           />
         </Link>
-
+        {/* <p className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-xl font-black">Build By Harsh Sharma</p> */}
         {isLoading || !user.email ? (
           <div className="h-14">
             <Loader />

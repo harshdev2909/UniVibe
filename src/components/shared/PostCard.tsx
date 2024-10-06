@@ -77,6 +77,8 @@ const PostCard = ({ post }: PostCardProps) => {
       </Link>
 
       <PostStats post={post} userId={user.id} />
+      <p className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-xl font-black">Build By Harsh Sharma</p>
+
     </div>
   );
 };
